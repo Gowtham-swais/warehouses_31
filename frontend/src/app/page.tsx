@@ -19,7 +19,7 @@ export default function Home() {
       case "dashboard":
         return <Dashboard setActivePage={setActivePage} />;
 
-      case "challenges":
+      case "cahllenges":
         return <Challenges />;
 
       case "dataSources":
